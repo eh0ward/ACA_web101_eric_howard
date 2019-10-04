@@ -1,23 +1,23 @@
-body{
-    background-color: rgb(61, 16, 68);
+body {
+  background-color: rgb(61, 16, 68);
 }
 
 main {
-    width: 60%;
-    margin: auto;
+  width: 60%;
+  margin: auto;
 }
 
 section {
-    background-color: rgb(127, 143, 156);
-    padding: 10px;
-    margin-bottom: 1px;
-    font-family: 'Courier New', Courier, monospace
+  background-color: rgb(127, 143, 156);
+  padding: 10px;
+  margin-bottom: 1px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 section h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 p2 {
-    font-weight: bold
+  font-weight: bold;
 }
