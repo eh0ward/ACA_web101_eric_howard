@@ -1,14 +1,20 @@
 body {
-    background-color: blueviolet;
-    background-image: url(https://cdn4.pitchfork.com/longform/381/streaming-1-header-final.png);
-    background-repeat: no-repeat;
-
+  background-color: blueviolet;
+  background-image: url(https://cdn4.pitchfork.com/longform/381/streaming-1-header-final.png);
+  background-repeat: no-repeat;
 }
 
 nav {
-    font-size: 20pt
+  font-size: 20pt;
 }
 
 p {
-    color: blueviolet
+  color: blueviolet;
+}
+
+@media (max-width: 768px) {
+}
+
+nav {
+  color: aqua;
 }
