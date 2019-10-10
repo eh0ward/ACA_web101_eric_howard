@@ -11,10 +11,10 @@ header {
   grid-area: header;
   color: white;
   padding: 10px;
-  font-family: 'Gill Sans';
+  font-family: "Gill Sans";
   font-size: 200%;
   text-align: center;
-  background-image: url('./bridge.jpg');
+  background-image: url("./bridge.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
