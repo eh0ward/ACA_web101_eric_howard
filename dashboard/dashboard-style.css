@@ -122,6 +122,8 @@ main {
   color: rgb(255, 172, 172);
 }
 
+/* To Do List */
+
 .to-do {
   grid-column: 2/2;
   grid-row: 2/3;

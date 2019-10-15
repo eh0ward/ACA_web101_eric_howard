@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+.calculator {
+  margin: 0 auto;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  max-width: 300px;
+  min-height: 500%;
+  border: 2px solid rgb(221, 224, 226);
+  border-radius: 25px;
+}
+
+.calculator input {
+  background: none;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  border-bottom: 2px solid rgb(221, 224, 226), 219);
+  border-bottom-style: groove;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 20px;
+  text-align: right;
+  font-size: 40px;
+  font-family: monospace;
+  color: black;
+}
+
+.calculator-buttons {
+  padding: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.calc-button {
+  background: rgb(206, 201, 201);
+  border: 1px solid black;
+  padding: 10px;
+  color: #111;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.is {
+  color: green;
+}
+
+.is-period {
+  font-weight: bold;
+}
+
+#decimal {
+  /* margin-bottom: 10px; */
+  /* display: flex;
+    align-items:  */
+}
+
+/* .is-decimal {
+  
+  } */
+.is-equals {
+  background-color: rgb(54, 159, 224);
+  color: rgb(241, 199, 233);
+}
+
+.are {
+  font-size: 30px;
+}
+
+.is-clear {
+  color: rgb(255, 172, 172);
+}
