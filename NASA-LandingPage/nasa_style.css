@@ -1,0 +1,104 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+@media (min-width: 576px) {
+}
+
+body {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20.5% 22.1%;
+  grid-template-rows: 27% 35.5%;
+}
+
+#nasa {
+  margin: 50px auto;
+  grid-area: 2/2;
+  font-family: "Telex", sans-serif;
+  font-size: 45px;
+  color: rgb(166, 213, 243);
+}
+
+main {
+  margin: 10px auto;
+  height: 450px;
+  background-image: url("hubble_blackhole_crop2.jpg");
+  background-repeat: round;
+  color: white;
+}
+
+section {
+  font-family: "Telex", sans-serif;
+  margin-top: 20px;
+  width: 100%;
+  background-image: url(nasa-jfk-space-center.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  height: 324px;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-flow: row nowrap;
+}
+
+article {
+  width: 270px;
+  /* background-color: rgb(224, 222, 222); */
+  /* padding: 0px 0px 0px 20px; */
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+a {
+  font-size: 16px;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 7px;
+  color: rgba(0, 0, 0, 0.747);
+  font-weight: lighter;
+}
+
+.link-text {
+  color: aliceblue;
+  font-weight: lighter;
+}
+
+/* #contact-info {
+  padding-bottom: 0px;
+} */
+
+#contact-info p {
+  padding-bottom: 2px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 80%;
+  border-radius: 4%;
+  font-size: 14px;
+}
+
+#message-box {
+  height: 20%;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(88, 85, 85);
+  border-radius: 8%;
+  color: aliceblue;
+  font-size: 14px;
+}
