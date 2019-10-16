@@ -5,38 +5,49 @@
 @media (min-width: 576px) {
 }
 
-body {
+#margin {
   width: 850px;
   margin: 0 auto;
 }
 
+.side-crop {
+  background-image: url("hubble_blackhole_crop2.jpg");
+  background-repeat: round;
+}
+
 .container {
   display: grid;
-  grid-template-columns: 20.5% 22.1%;
-  grid-template-rows: 27% 35.5%;
+  /* grid-template-columns: 20.5% 22.1%;
+  grid-template-rows: 27% 35.5%; */
+  grid-template-columns: 37.5%;
+  grid-template-rows: 27%;
 }
 
 #nasa {
-  margin: 50px auto;
-  grid-area: 2/2;
+  /* margin: 50px auto; */
+  margin: auto;
+  margin-top: 177px;
+  padding-right: 4px;
+  /* grid-area: 2/2; */
+  grid-area: 2/1;
   font-family: "Telex", sans-serif;
-  font-size: 45px;
+  font-size: 86px;
   color: rgb(166, 213, 243);
 }
 
-main {
+#banner {
   margin: 10px auto;
   height: 450px;
-  background-image: url("hubble_blackhole_crop2.jpg");
+  /* background-image: url("hubble_blackhole_crop2.jpg"); */
   background-repeat: round;
   color: white;
 }
 
-section {
+.flex {
   font-family: "Telex", sans-serif;
   margin-top: 20px;
   width: 100%;
-  background-image: url(nasa-jfk-space-center.jpg);
+  /* background-image: url("nasa-jfk-space-center.jpg"); */
   background-repeat: no-repeat;
   display: flex;
   height: 324px;
@@ -66,12 +77,15 @@ a {
 p {
   margin: 0;
   padding-bottom: 7px;
-  color: rgba(0, 0, 0, 0.747);
+  /* color: rgba(0, 0, 0, 0.747); */
+  /* color: aliceblue; */
+  color: rgb(166, 213, 243);
   font-weight: lighter;
 }
 
 .link-text {
-  color: aliceblue;
+  /* color: aliceblue; */
+  color: rgb(166, 213, 243);
   font-weight: lighter;
 }
 
@@ -83,22 +97,49 @@ p {
   padding-bottom: 2px;
 }
 
-input {
+#name-box {
+  /* background-image: url("nasa-jfk-space-center.jpg");
+  background-repeat: no-repeat; */
+  background-color: transparent;
   margin-bottom: 20px;
   padding: 5px;
-  width: 80%;
-  border-radius: 4%;
-  font-size: 14px;
+  width: 210px;
+  font-size: 20px;
+  font-weight: 400;
+  /* color: rgb(166, 213, 243); */
 }
 
 #message-box {
-  height: 20%;
+  /* background-image: url("hubble_blackhole_crop2.jpg"); */
+  background-color: transparent;
+  width: 216.842px;
+  height: 70px;
+  border: 2px solid grey;
+  border-radius: 4%;
+  border-top-color: rgba(210, 212, 214, 0.849);
+  border-right-color: rgb(227, 231, 235);
+  border-bottom-color: rgb(227, 231, 235);
+  border-left-color: rgb(227, 231, 235);
+  font-size: 20px;
+  font-weight: 400;
+  /* color: rgb(166, 213, 243); */
+  /* color: rgba(0, 0, 0, 0.747); */
 }
 
-button {
+.message-text,
+#section-text,
+/* .link-text, */
+::placeholder {
+  color: rgb(255, 30, 30);
+}
+
+.button {
+  background-color: transparent;
+  margin-top: 4px;
   padding: 10px;
-  background-color: rgb(88, 85, 85);
+  /* background-color: rgb(88, 85, 85); */
   border-radius: 8%;
-  color: aliceblue;
+  /* color: aliceblue; */
+  color: rgb(255, 30, 30);
   font-size: 14px;
 }

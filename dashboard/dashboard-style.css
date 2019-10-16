@@ -74,6 +74,8 @@ main {
 }
 
 .calculator-buttons {
+  max-width: 300px;
+  min-height: 100%;
   padding: 10px;
   display: grid;
   /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */

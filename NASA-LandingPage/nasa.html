@@ -11,11 +11,11 @@
     />
     <title>NASA Landing Page</title>
   </head>
-  <body>
-    <main class="container">
+  <body id="margin" class="side-crop">
+    <main class="container" id="banner">
       <h1 id="nasa">NASA</h1>
     </main>
-    <section>
+    <section class="flex" id="section-text">
       <article>
         <h1 class="bold-text">SOCIAL MEDIA</h1>
         <p>
@@ -43,7 +43,7 @@
           >
         </p>
       </article>
-      <article>
+      <article id="section-text">
         <h1 class="bold-text">OFFICE INFO</h1>
         <p>Public Communications Office</p>
         <p>NASA Headquarters</p>
@@ -55,10 +55,11 @@
       <article class="message-flex" id="contact-info">
         <h1 class="bold-text">CONTACT US</h1>
         <p>Name</p>
-        <input type="text" />
+        <input id="name-box" class="message-text" type="text" />
+        <!-- <textarea rows="1" id="name-box"></textarea> -->
         <p>Message</p>
-        <input id="message-box" type="text" />
-        <button>Submit</button>
+        <textarea rows="3" id="message-box" class="message-text"></textarea>
+        <button class="button">Submit</button>
       </article>
     </section>
   </body>

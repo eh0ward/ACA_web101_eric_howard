@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+}
+
+.logo {
+  margin: auto;
+  padding-top: 100px;
+}
+
+.banner {
+  background-image: url(img/Mustache_Enthusiast_files/the-beacon.jpg);
+}
