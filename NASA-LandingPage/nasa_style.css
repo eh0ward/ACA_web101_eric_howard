@@ -111,7 +111,7 @@ p {
   margin-bottom: 20px;
   padding: 5px;
   width: 210px;
-  font-size: 15px;
+  /* font-size: 15px; */
   /* font-weight: 400; */
   /* color: rgb(166, 213, 243); */
 }
@@ -121,7 +121,6 @@ p {
   background-color: transparent;
   width: 216.842px;
   height: 40px;
-  font-size: 15px;
   /* font-weight: 400; */
   /* color: rgb(166, 213, 243); */
   /* color: rgba(0, 0, 0, 0.747); */
@@ -142,8 +141,6 @@ p {
   padding: 10px;
   /* background-color: rgb(88, 85, 85); */
   /* border-radius: 50%; */
-  color: rgb(255, 30, 30);
-  font-size: 15px;
 }
 
 #name-box,
@@ -155,4 +152,6 @@ p {
   border-right-color: rgb(166, 213, 243);
   border-bottom-color: rgb(166, 213, 243);
   border-left-color: rgba(166, 213, 243, 0.623);
+  color: rgb(255, 30, 30);
+  font-size: 15px;
 }
