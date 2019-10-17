@@ -9,6 +9,14 @@
   height: 100%;
 } */
 
+.container {
+  display: grid;
+  grid-template-areas:
+    "hd hd"
+    "calc td"
+    "date cal";
+}
+
 body {
   background-image: url("Wotherspoons1.jpg");
   background-size: 1600px 1000px;
@@ -25,13 +33,6 @@ main {
   grid-template-columns: 50% 50%;
   height: 100vh;
 }
-
-/* .container {
-  display: grid;
-  grid-template-areas:
-    "div"
-    "div";
-} */
 
 /* Greeting */
 
@@ -51,7 +52,7 @@ main {
   grid-column: 1/2;
   grid-row: 2/3;
   max-width: 300px;
-  min-height: 100%;
+  min-height: auto;
   margin: 0 auto;
   border: 2px solid rgb(119, 174, 219);
   border-radius: 25px;
@@ -74,16 +75,18 @@ main {
 }
 
 .calculator-buttons {
-  max-width: 300px;
-  min-height: 100%;
   padding: 10px;
   display: grid;
-  /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+  grid-template-rows: repeat(5, auto);
   grid-template-columns: repeat(4, 1fr);
+  max-width: 300px;
+  min-height: 30px;
   grid-gap: 10px;
 }
 
 .calc-button {
+  max-width: 300px;
+  min-height: auto;
   background: rgb(97, 97, 97);
   border: 1px solid black;
   padding: 10px;
@@ -102,15 +105,6 @@ main {
   font-weight: bold;
 }
 
-#decimal {
-  /* margin-bottom: 10px; */
-  /* display: flex;
-  align-items:  */
-}
-
-/* .is-decimal {
-
-} */
 .is-equals {
   background-color: rgb(54, 159, 224);
   color: rgb(241, 199, 233);
@@ -168,7 +162,7 @@ main {
 
 /* Date and Time */
 
-.date {
+.time {
   grid-column: 1/2;
   grid-row: 3/3;
   font-size: 45px;
@@ -178,15 +172,6 @@ main {
 }
 
 /* Calendar */
-
-/* .calendar {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-} */
 
 .calendar {
   grid-column: 2/2;
@@ -223,4 +208,116 @@ main {
 .number {
   background-color: rgb(54, 159, 224);
   cursor: pointer;
+}
+
+/* PHONE */
+
+@media (max-width: 576px) {
+  .container {
+    display: grid;
+    grid-template-areas:
+      "hd hd"
+      "calc clock"
+      "td cal";
+  }
+
+  /* Greeting */
+
+  .greeting {
+    padding-top: 10px;
+    color: rgb(121, 26, 85);
+  }
+
+  /* Calculator */
+
+  .is-equals {
+    background-color: rgb(30, 255, 0);
+    color: rgb(97, 97, 97);
+  }
+
+  .are {
+    font-size: 26px;
+  }
+
+  .is-clear {
+    color: rgb(30, 255, 0);
+  }
+
+  /* To Do List */
+
+  #list {
+    font-size: 30px;
+  }
+
+  #text {
+    width: 87%;
+    height: 52px;
+  }
+
+  /* Date and Time */
+
+  .time {
+    font-size: 30px;
+    padding: 0px 30px 0px;
+    color: rgb(22, 55, 240);
+    font-weight: bold;
+  }
+
+  .day {
+    max-width: 212px;
+  }
+
+  .number {
+    max-width: 212px;
+    font-size: 20px;
+    color: rgb(241, 199, 233);
+  }
+}
+
+/* Medium and up (Tablets) */
+
+@media (min-width: 578px) {
+  /* Greeting */
+
+  .greeting {
+    padding-top: 10px;
+    color: rgb(72, 157, 214);
+  }
+
+  /* Calculator */
+
+  .are {
+    font-size: 26px;
+  }
+
+  /* To Do List */
+
+  #list {
+    font-size: 30px;
+  }
+
+  #text {
+    width: 87%;
+    height: 52px;
+  }
+
+  /* Date and Time */
+
+  .time {
+    font-size: 38px;
+    padding: 0px 70px 0px;
+    color: rgb(212, 0, 255);
+    font-weight: bold;
+  }
+
+  .day {
+    max-width: 212px;
+    color: rgb(218, 26, 182);
+  }
+
+  .number {
+    max-width: 212px;
+    font-size: 20px;
+    color: rgb(218, 26, 182);
+  }
 }
