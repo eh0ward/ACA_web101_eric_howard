@@ -26,12 +26,13 @@
 #nasa {
   /* margin: 50px auto; */
   margin: auto;
-  margin-top: 177px;
-  padding-right: 4px;
+  margin-top: 163px;
+  padding-right: 3.5px;
   /* grid-area: 2/2; */
   grid-area: 2/1;
-  font-family: "Telex", sans-serif;
-  font-size: 86px;
+  font-family: "nasalizationregular";
+  /* font-family: "Telex", sans-serif; */
+  font-size: 74px;
   color: rgb(166, 213, 243);
 }
 
@@ -44,7 +45,8 @@
 }
 
 .flex {
-  font-family: "Telex", sans-serif;
+  font-family: "nasalizationregular";
+  /* font-family: "Telex", sans-serif; */
   margin-top: 20px;
   width: 100%;
   /* background-image: url("nasa-jfk-space-center.jpg"); */
@@ -63,30 +65,35 @@ article {
   /* background-color: rgb(224, 222, 222); */
   /* padding: 0px 0px 0px 20px; */
   padding-left: 20px;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 
-.bold-text {
-  font-weight: bold;
+.header-text {
+  margin-bottom: 15px;
+  font-size: 24px;
+  /* font-weight: bold; */
+  color: rgb(255, 30, 30);
 }
 
-a {
+/* a {
   font-size: 16px;
-}
+} */
 
 p {
   margin: 0;
-  padding-bottom: 7px;
+  /* padding-bottom: 1px; */
   /* color: rgba(0, 0, 0, 0.747); */
   /* color: aliceblue; */
   color: rgb(166, 213, 243);
-  font-weight: lighter;
+  font-size: 15px;
+  /* font-weight: lighter; */
 }
 
 .link-text {
   /* color: aliceblue; */
   color: rgb(166, 213, 243);
-  font-weight: lighter;
+  font-size: 15px;
+  /* font-weight: lighter; */
 }
 
 /* #contact-info {
@@ -104,8 +111,8 @@ p {
   margin-bottom: 20px;
   padding: 5px;
   width: 210px;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 15px;
+  /* font-weight: 400; */
   /* color: rgb(166, 213, 243); */
 }
 
@@ -113,33 +120,39 @@ p {
   /* background-image: url("hubble_blackhole_crop2.jpg"); */
   background-color: transparent;
   width: 216.842px;
-  height: 70px;
-  border: 2px solid grey;
-  border-radius: 4%;
-  border-top-color: rgba(210, 212, 214, 0.849);
-  border-right-color: rgb(227, 231, 235);
-  border-bottom-color: rgb(227, 231, 235);
-  border-left-color: rgb(227, 231, 235);
-  font-size: 20px;
-  font-weight: 400;
+  height: 40px;
+  font-size: 15px;
+  /* font-weight: 400; */
   /* color: rgb(166, 213, 243); */
   /* color: rgba(0, 0, 0, 0.747); */
 }
 
 .message-text,
-#section-text,
+/* #section-text, */
 /* .link-text, */
 ::placeholder {
+  font-family: "nasalizationregular";
   color: rgb(255, 30, 30);
 }
 
 .button {
+  font-family: "nasalizationregular";
   background-color: transparent;
   margin-top: 4px;
   padding: 10px;
   /* background-color: rgb(88, 85, 85); */
-  border-radius: 8%;
-  /* color: aliceblue; */
+  /* border-radius: 50%; */
   color: rgb(255, 30, 30);
-  font-size: 14px;
+  font-size: 15px;
+}
+
+#name-box,
+#message-box,
+.button {
+  border: 1px solid;
+  border-radius: 3%;
+  border-top-color: rgba(166, 213, 243, 0.623);
+  border-right-color: rgb(166, 213, 243);
+  border-bottom-color: rgb(166, 213, 243);
+  border-left-color: rgba(166, 213, 243, 0.623);
 }

@@ -9,15 +9,17 @@
       href="https://fonts.googleapis.com/css?family=Mitr|Encode+Sans:100,200,300,400|Mukta+Malar|Coda+Caption:800|Telex&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./webfontkit-20191016-222534/stylesheet.css" />
+
     <title>NASA Landing Page</title>
   </head>
   <body id="margin" class="side-crop">
     <main class="container" id="banner">
       <h1 id="nasa">NASA</h1>
     </main>
-    <section class="flex" id="section-text">
+    <section class="flex">
       <article>
-        <h1 class="bold-text">SOCIAL MEDIA</h1>
+        <h1 class="header-text">SOCIAL MEDIA</h1>
         <p>
           <a
             class="link-text"
@@ -43,8 +45,8 @@
           >
         </p>
       </article>
-      <article id="section-text">
-        <h1 class="bold-text">OFFICE INFO</h1>
+      <article>
+        <h1 class="header-text">OFFICE INFO</h1>
         <p>Public Communications Office</p>
         <p>NASA Headquarters</p>
         <p>300 E. Street SW, Suite 5R30</p>
@@ -53,9 +55,14 @@
         <p>(202) 358-4338 (Fax)</p>
       </article>
       <article class="message-flex" id="contact-info">
-        <h1 class="bold-text">CONTACT US</h1>
+        <h1 class="header-text">CONTACT US</h1>
         <p>Name</p>
-        <input id="name-box" class="message-text" type="text" />
+        <input
+          id="name-box"
+          class="message-text"
+          type="text"
+          placeholder="Eric Chi"
+        />
         <!-- <textarea rows="1" id="name-box"></textarea> -->
         <p>Message</p>
         <textarea rows="3" id="message-box" class="message-text"></textarea>
