@@ -132,32 +132,100 @@ main {
   border-radius: 25px;
 }
 
-#list {
+#td-list {
   color: rgb(241, 199, 233);
-  font-size: 50px;
+  font-size: 30px;
 }
 
-#checkbox {
+/* .line {
+  text-decoration: line-through;
+} */
+
+/* #checkbox {
+  color: aliceblue;
+} */
+
+.checkme::before {
+  content: "✓";
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.cBox {
+  /* display: inline; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+  height: 15px;
+  width: 15px;
+  background-color: blueviolet;
+  margin-left: 5px;
+  margin-right: 5px;
+  align-self: center;
+  border-radius: 50%;
+}
+
+.item {
+  float: left;
+  padding-top: 4px;
   color: blueviolet;
+  text-decoration-color: black;
+  font-size: 12px;
 }
 
-#placeholder {
+input[type="text"] {
+  background-color: blueviolet;
+  color: rgb(241, 199, 233);
+  font-size: 12px;
+  padding: 6px;
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+
+input[type="submit"] {
+  background-color: blueviolet;
+  color: rgb(241, 199, 233);
+  border-radius: 30px;
+  border: none;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+}
+
+/* #placeholder {
   color: blueviolet;
   font-size: 15px;
   font-family: "Rock Salt", cursive;
   padding: 4px;
   width: 90%;
-}
+} */
 
-#text {
+.list-text {
   background-color: rgb(241, 199, 233);
   border: solid rgb(46, 97, 52);
   border-bottom-color: rgb(224, 231, 238);
-  color: blueviolet;
-  font-size: 15px;
+  color: black;
+  /* font-size: 12px; */
   font-family: "Rock Salt", cursive;
-  padding: 4px;
-  width: 90%;
+  /* padding: 4px; */
+  width: 97%;
+}
+
+span {
+  content: "\2713";
 }
 
 /* Date and Time */
@@ -245,14 +313,25 @@ main {
 
   /* To Do List */
 
-  #list {
-    font-size: 30px;
+  #td-list {
+    font-size: 20px;
   }
 
-  #text {
-    width: 87%;
-    height: 52px;
+  .list-text {
+    float: left;
+    background-color: rgb(241, 199, 233);
+    border: solid rgb(46, 97, 52);
+    border-bottom-color: rgb(224, 231, 238);
+    color: blueviolet;
+    font-size: 8px;
+    font-family: "Rock Salt", cursive;
+    padding: 4px;
+    width: 100%;
   }
+
+  /* input[type="text"] {
+    width: 20px;
+  } */
 
   /* Date and Time */
 
@@ -292,14 +371,18 @@ main {
 
   /* To Do List */
 
-  #list {
+  #td-list {
     font-size: 30px;
   }
 
-  #text {
+  #list-text {
     width: 87%;
     height: 52px;
   }
+
+  /* input[type="text"] {
+    width: 20px;
+  } */
 
   /* Date and Time */
 

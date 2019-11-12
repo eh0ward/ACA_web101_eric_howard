@@ -44,6 +44,7 @@ ul {
 #nav ul li {
   display: inline;
   padding: 0 60px;
+  letter-spacing: 5px;
 }
 
 #nav ul li a:hover {
@@ -51,8 +52,8 @@ ul {
   /* color: #0ba39c; */
   /* color: rgba(189, 166, 235, 0.829); */
   color: rgb(198, 248, 123);
-  font-family: "UnifrakturCook", cursive;
-  text-transform: lowercase;
+  font-family: "the_art_of_illuminatingRg";
+  /* text-transform: lowercase; */
   font-size: 22px;
   /* color: aquamarine; */
   /* text-decoration-line: line-through; */
@@ -77,8 +78,8 @@ ul li a {
   color: #252525;
   /* color: rgba(189, 166, 235, 0.829); */
   display: inline-block;
-  font-family: "Arial Black", Gadget, sans-serif;
-  font-size: 12px;
+  font-family: "the_art_of_illuminatingRg";
+  font-size: 20px;
   font-weight: normal;
   padding: 0 0 3px;
   text-decoration: none;

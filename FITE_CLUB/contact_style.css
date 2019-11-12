@@ -6,6 +6,7 @@
 
 body {
   margin: 0 auto;
+  /* width: 1000px; */
   min-height: 766px;
   background: #000;
 }
@@ -50,7 +51,7 @@ ul {
   /* text-decoration-line: line-through; */
 }
 
-#nav ul li#artist a {
+#nav ul li#contact a {
   /* color: #0ba39c; */
   /* color: rgb(198, 248, 123); */
   /* color: rgba(189, 166, 235, 0.829); */
@@ -86,94 +87,148 @@ a {
 }
 /* NAV END */
 
-/* LOGO */
-
-.container {
+.wrapper {
   display: grid;
-  grid-template-columns: 100px auto 100px;
-  /* grid-template-rows: 150px auto 150px; */
+  grid-template-rows: none;
+  grid-template-columns: 1fr 1fr;
+  height: 545px;
+}
+
+/* INFO SECTION */
+
+.info-section {
+  margin: 20px;
+  color: rgb(198, 248, 123);
+  padding-left: 70px;
+  /* padding-top: 30px; */
+  text-align: center;
+  font-family: "the_art_of_illuminatingRg";
+  border-right: solid 1px rgba(189, 166, 235, 0.829);
+}
+
+h1 {
+  font-size: 30px;
+  letter-spacing: 7px;
+  margin-bottom: 0;
+}
+
+#presents {
   margin: 0;
 }
 
-#logo {
-  grid-area: 2 / 2;
-  height: 300px;
-  background-image: url(./img/Fite-Club_logo.png);
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  /* negative: url(./home.html); */
+h2 {
+  margin: 15px;
+  font-size: 80px;
+  letter-spacing: 7px;
 }
-/* LOGO END */
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-/* BIO PIC RULES */
 
-#header {
-  display: flex;
-  flex-direction: row;
-  height: 250px;
+h3 {
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+#p {
+  padding-top: 30px;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+address {
+  /* float: left; */
+  font-size: 18px;
   padding-top: 50px;
-}
-
-.bio-pic {
-  margin: 0 auto;
-  border: solid 0.5px rgba(189, 166, 235, 0.829);
-  /* border-color: #252525; */
-  /* border-color: #000; */
-  text-align: center;
-  /* padding-top: 68px; */
-  padding: 64px;
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-}
-
-#bio-1 {
-  /* grid-area: 1 / 1; */
-  background-image: url(./img/alex-bio-pic.png);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-#bio-2 {
-  /* grid-area: 1 / 3; */
-  background-image: url(./img/sharks-bio-pic-2.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  /* height: 100px;
-  width: 100px; */
-}
-
-#bio-3 {
-  /* grid-area: 3 / 1; */
-  background-image: url(./img/chango-bio-pic.png);
-  background-position: top;
-  background-repeat: no-repeat;
-}
-
-#bio-4 {
-  /* grid-area: 3 / 3; */
-  background-image: url(./img/chi-bio-pic-2.png);
-  background-position: bottom right;
-  background-repeat: no-repeat;
-}
-
-.text {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 100px;
   font-family: "the_art_of_illuminatingRg";
-  font-size: 20px;
   color: rgb(198, 248, 123);
+  text-align: center;
   letter-spacing: 5px;
 }
-/* BIO PIC END */
+
+/* CONTACT SECTION */
+
+.contact-section {
+  margin: 20px;
+  color: rgb(198, 248, 123);
+  padding-left: 70px;
+  padding-top: 30px;
+  text-align: left;
+  font-family: "the_art_of_illuminatingRg";
+  border-left: solid 1px rgba(189, 166, 235, 0.829);
+}
+
+#contact-us {
+  font-size: 80px;
+  margin: 10px 10px 28px;
+  /* padding-left: 122px; */
+  letter-spacing: 7px;
+}
+
+form {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  float: left;
+  font-size: 22px;
+  padding: 20px;
+  text-align: left;
+  font-family: "the_art_of_illuminatingRg";
+  letter-spacing: 3px;
+  color: rgb(198, 248, 123);
+  /* padding-left: 150px; */
+  height: 150px;
+  max-width: 250px;
+}
+
+#input-1 {
+  padding-right: 40px;
+}
+
+#input-2 {
+  padding-right: 35px;
+}
+
+#input-3 {
+  padding-right: 3.3px;
+}
+
+strong {
+  padding-top: 5px;
+}
+
+.input-text,
+textarea {
+  background-color: transparent;
+  /* border-color: #252525; */
+  border-color: #252525;
+  border-left: #252525;
+  border-top: #252525;
+  border-radius: 3%;
+  color: rgb(198, 248, 123);
+  height: 30px;
+}
+
+button {
+  /* margin-left: 103px; */
+  width: 70px;
+  height: 40px;
+  padding-top: 7px;
+  font-family: "the_art_of_illuminatingRg";
+  font-size: 20px;
+  background-color: transparent;
+  border-color: #252525;
+  border-left: #252525;
+  border-top: #252525;
+  border-radius: 3%;
+  color: rgb(198, 248, 123);
+}
 
 /* FOOTER */
 
 footer {
-  padding-top: 26px;
+  padding-top: 30px;
 }
 
 .icons {

@@ -7,92 +7,89 @@
     <link rel="stylesheet" type="text/css" href="artist_style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Eater|Megrim|Nosifer|Rock+Salt|UnifrakturCook:700&display=swap"
-      rel="stylesheet"/>
-      <!-- <link rel="stylesheet" href="./TheArtofIlluminating/font_styles.css" -->
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./webfontkit-20191106-235831/stylesheet.css" />
 
     <title>FITE CLUB Artist Page</title>
 
-    <script> 
+    <script>
       // document.addEventListener("DOMContentLoaded", function(){
-          function blinkIt(page) {
-           
-            // alert("click");
+      function blinkIt(page) {
+        // alert("click");
 
-            document.getElementsByTagName("body")[0].classList.add("flicker-in-1");
-            
-            var x = document.getElementsByTagName("body")[0];
-      
-            // Code for Chrome, Safari and Opera
-            x.addEventListener("animationend", gotoPage(page));
+        document.getElementsByTagName("body")[0].classList.add("flicker-in-1");
 
-          }
-      
-          function gotoPage(page){
-            location.replace(page);
-          }
-        // });
-      </script>
+        var x = document.getElementsByTagName("body")[0];
 
+        // Code for Chrome, Safari and Opera
+        x.addEventListener("animationend", gotoPage(page));
+      }
+
+      function gotoPage(page) {
+        location.replace(page);
+      }
+      // });
+    </script>
   </head>
   <body class="flicker-out-1">
     <!-- <header id="header">squad</header> -->
     <nav id="nav">
       <ul class="text-flicker-in-glow">
         <li>
-          <a onClick='blinkIt("home.html")' >h o m e </a>
+          <a onClick='blinkIt("home.html")'>home </a>
         </li>
         <li id="artist">
-          <a href="artist.html">m e m b e r s</a>
+          <a href="artist.html">members</a>
         </li>
         <!-- <li>
           <a href="gallery.html">gallery</a>
         </li> -->
+        <!-- <li>
+          <a href="blog.html">blog</a>
+        </li> -->
         <li>
-          <a href="blog.html">b l o g</a>
-        </li>
-        <li>
-          <a href="contact.html">c o n t a c t</a>
+          <a href="contact.html">contact</a>
         </li>
       </ul>
     </nav>
+    <section class="container">
+      <div id="logo"></div>
+    </section>
     <header id="header">
       <div class="bio-pic" id="bio-1">
         <div class="text">
-          alexandre
+          ALEXANDRE
         </div>
       </div>
       <div class="bio-pic" id="bio-2">
         <div class="text">
-          sharkweek
+          SHARKWEEK
         </div>
-      </div class="text">
+      </div>
       <div class="bio-pic" id="bio-3">
         <div class="text">
-          chango
+          CHANGO
         </div>
       </div>
       <div class="bio-pic" id="bio-4">
         <div class="text">
-          chi
+          CHI
         </div>
       </div>
     </header>
-    <section class="container">
-      <div id="logo"></div>
-    </section>
     <footer>
       <ul class="icons text-flicker-in-glow">
         <li>
           <a href="https://www.facebook.com/events/510121936200638"
-            ><img id="sm-icons"
+            ><img
+              id="sm-icons"
               width="40px"
               height="40px"
               src="./img/Icons/Circle/facebook-brands.svg"
           /></a>
-          </li>
-        </ul>
+        </li>
+      </ul>
     </footer>
   </body>
-
-
 </html>

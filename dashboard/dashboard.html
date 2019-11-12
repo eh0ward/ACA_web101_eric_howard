@@ -46,32 +46,42 @@
 
     <!-- To Do List -->
     <div class="to-do">
-      <header id="list">To Do List:</header>
-      <div>
+      <header id="td-list">To Do List:</header>
+      <ul class="list-text">
+          <!-- <input id="checkbox" type="checkbox">
+          <span id="list-text" type="text" placeholder="Laundry"><br>
           <input id="checkbox" type="checkbox">
-          <input id="text" type="text" placeholder="Laundry">
-      </div>
-      <div>
+          <input id="list-text" type="text" placeholder="Dashboard Code"><br>
           <input id="checkbox" type="checkbox">
-          <input id="text" type="text" placeholder="Dashboard Code">
-      </div>
-      <div>
+          <input id="list-text" type="text" placeholder="Dog Food"><br>
           <input id="checkbox" type="checkbox">
-          <input id="text" type="text" placeholder="Dog Food">
-      </div>
-      <div>
+          <input id="list-text" type="text"><br>
           <input id="checkbox" type="checkbox">
-          <input id="text" type="text">
-      </div>
-      <div>
-          <input id="checkbox" type="checkbox">
-          <input id="text" type="text">
-      </div>
-      <div>
-          <input id="checkbox" type="checkbox">
-          <input id="text" type="text">
-      </div>
+          <input id="list-text" type="text"><br> -->
+        <li>
+          <div class="cBox"></div>
+          <span class="item">Laundry</span><br>
+        </li>
+        <li>
+          <div class="cBox"></div>
+          <span class="item">Dog Food</span><br>
+        </li>
+        <li>
+          <div class="cBox"></div>
+          <span class="item">Get Franco's heartworm</span><br>
+        </li>
+        <li>
+          <div class="cBox"></div>
+          <span class="item">Finish homework</span><br>
+        </li>
+      </ul>
+    <form id="newItemForm">
+      <input type="text" id="itemField" placeholder="New Task" />
+      <input type="submit" id="add" value="add" />
+    </form>
     </div>
+
+    
 
     <!-- Date and Time -->
     <div class="time">
@@ -126,4 +136,6 @@
     </div>
   </main>
   </body>
-</html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="dashboard.js"></script>
+  </html>
