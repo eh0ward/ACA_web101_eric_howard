@@ -181,13 +181,34 @@ address {
   padding-top: 30px;
   /* font-family: "Source Sans Pro", sans-serif; */
   font-family: "Abril Fatface", cursive;
-  fontcolor: rgb(198, 248, 123);
+  color: rgb(198, 248, 123);
   text-align: center;
   letter-spacing: 5px;
 
   /* animation */
   animation-duration: 3s;
   animation-delay: 8.25s;
+}
+
+button {
+  margin-top: 15px;
+  background-color: transparent;
+  border-color: #000;
+  color: rgb(198, 248, 123);
+  font-family: "Abril Fatface", cursive;
+  font-size: 18px;
+
+  /* animation */
+  animation-duration: 3s;
+  animation-delay: 10s;
+}
+
+iframe {
+  padding-top: 5px;
+
+  /* animation */
+  animation-duration: 3s;
+  animation-delay: 10s;
 }
 
 #logo {
