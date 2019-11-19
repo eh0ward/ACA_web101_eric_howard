@@ -24,7 +24,8 @@ body {
 
 #nav ul {
   margin: 0 auto;
-  padding: 43px 0 50px;
+  /* padding: 43px 0 60px; */
+  padding: 20px 0 40px;
   /* text-align: center; */
   /* width: 960px; */
 }
@@ -99,12 +100,94 @@ a {
   margin: 0;
 } */
 
-#iframe {
+/* #iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding: 25px 430px 15px; */
-  /* padding-left: 310px; */
+
+} */
+
+.info-section {
+  margin: 7px;
+  color: rgb(198, 248, 123);
+  /* padding-left: 70px; */
+  /* padding-top: 30px; */
+  text-align: center;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  /* font-family: "Calistoga", cursive; */
+  font-family: "Abril Fatface", cursive;
+  /* border-right: solid 1px rgba(189, 166, 235, 0.829); */
+}
+
+h1 {
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin: 0;
+
+  /* animation */
+  animation-duration: 3s;
+  animation-delay: 4s;
+}
+
+#presents {
+  margin: 0;
+
+  /* animation */
+  animation-duration: 3s;
+  animation-delay: 5s;
+}
+
+h3 {
+  margin: 0;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 3px;
+
+  /* animation */
+  animation-duration: 7s;
+  animation-delay: 6s;
+}
+
+h4 {
+  margin: 0;
+  padding-top: 7px;
+  font-size: 20px;
+  letter-spacing: 3px;
+
+  /* animation */
+  animation-duration: 3s;
+  animation-delay: 6.3s;
+}
+
+#p {
+  padding-top: 20px;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+  /* letter-spacing: 3px; */
+
+  /* animation */
+  animation-duration: 3s;
+  animation-delay: 7.75s;
+}
+
+address {
+  /* float: left; */
+  font-size: 18px;
+  padding-top: 30px;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  font-family: "Abril Fatface", cursive;
+  fontcolor: rgb(198, 248, 123);
+  text-align: center;
+  letter-spacing: 5px;
+
+  /* animation */
+  animation-duration: 3s;
+  animation-delay: 8.25s;
 }
 
 #logo {
@@ -115,6 +198,8 @@ a {
   background-size: auto;
   background-position: center;
 }
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /* NAV FLICKER */
 
@@ -265,7 +350,7 @@ a {
       0 0 100px rgba(255, 255, 255, 0.1);
   }
 }
-/* NAV FLICKER END */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /* PAGE FLICKER */
 
@@ -528,4 +613,5 @@ a {
     opacity: 0;
   }
 }
-/* PAGE FLICKER END */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */

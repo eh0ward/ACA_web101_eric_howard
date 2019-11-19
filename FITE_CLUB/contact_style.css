@@ -88,75 +88,24 @@ a {
 /* NAV END */
 
 .wrapper {
+  margin: 0 auto;
   display: grid;
   grid-template-rows: none;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   height: 545px;
 }
 
-/* INFO SECTION */
-
-.info-section {
-  margin: 20px;
-  color: rgb(198, 248, 123);
-  padding-left: 70px;
-  /* padding-top: 30px; */
-  text-align: center;
-  font-family: "the_art_of_illuminatingRg";
-  border-right: solid 1px rgba(189, 166, 235, 0.829);
-}
-
-h1 {
-  font-size: 30px;
-  letter-spacing: 7px;
-  margin-bottom: 0;
-}
-
-#presents {
-  margin: 0;
-}
-
-h2 {
-  margin: 15px;
-  font-size: 80px;
-  letter-spacing: 7px;
-}
-
-h3 {
-  margin: 0;
-  letter-spacing: 3px;
-}
-
-#p {
-  padding-top: 30px;
-}
-
-p {
-  margin: 0;
-  font-size: 18px;
-  letter-spacing: 3px;
-}
-
-address {
-  /* float: left; */
-  font-size: 18px;
-  padding-top: 50px;
-  font-family: "the_art_of_illuminatingRg";
-  color: rgb(198, 248, 123);
-  text-align: center;
-  letter-spacing: 5px;
-}
-
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* CONTACT SECTION */
 
 .contact-section {
-  margin: 20px;
+  margin: 0 auto;
   color: rgb(198, 248, 123);
   padding-left: 70px;
   padding-top: 30px;
-  text-align: left;
+  text-align: center;
   font-family: "the_art_of_illuminatingRg";
-  border-left: solid 1px rgba(189, 166, 235, 0.829);
+  /* border-left: solid 1px rgba(189, 166, 235, 0.829); */
 }
 
 #contact-us {
@@ -167,10 +116,11 @@ address {
 }
 
 form {
+  /* margin: 0 auto; */
   /* display: flex;
   flex-direction: column;
   justify-content: space-between; */
-  float: left;
+  /* float: left; */
   font-size: 22px;
   padding: 20px;
   text-align: left;
